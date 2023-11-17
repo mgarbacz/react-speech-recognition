@@ -1,7 +1,7 @@
 /* eslint-disable import/first */
 jest.mock('./isAndroid', () => () => true)
 
-import { renderHook } from '@testing-library/react-hooks'
+import { renderHook } from '@testing-library/react'
 import '../tests/vendor/corti'
 import SpeechRecognition, { useSpeechRecognition } from './SpeechRecognition'
 import RecognitionManager from './RecognitionManager'

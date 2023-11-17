@@ -1,4 +1,4 @@
-import { renderHook, act } from '@testing-library/react-hooks'
+import { renderHook, act } from '@testing-library/react'
 import { CortiSpeechRecognition } from '../tests/vendor/corti'
 import SpeechRecognition, { useSpeechRecognition } from './SpeechRecognition'
 import isAndroid from './isAndroid'
